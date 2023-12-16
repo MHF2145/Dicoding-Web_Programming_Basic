@@ -6,56 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Gallery</title>
     <link rel="stylesheet" href="assets/style/styles.css">
-
 </head>
 
 <body>
     <header>
         <h1 class="text1">Pokemon Gallery</h1>
-        <navbar class="pokemon-list text1">
-        <label for="pokemonDropdown">Choose a Pokémon:</label>
+        <nav class="pokemon-navigation">
+            <label for="pokemonDropdown">Choose a Pokémon:</label>
             <select id="pokemonDropdown"></select>
-        </navbar>
+        </nav>
     </header>
 
     <main>
-        <div class="container">
-            <div class="pokemon-container">
-                <div class="gallery">
-                    <h1 class="pokemon-name text1">Treecko</h1>
-                    <a class="container">
+        <section class="container">
+            <article class="pokemon-container">
+                <section class="gallery">
+                    <h2 class="pokemon-name text1">Treecko</h2>
+                    <figure class="container">
                         <img class="pokemon-image" src="assets/img/Treecko.png" alt="Treecko">
-                    </a>
-                </div>
-                <div class="pokemon-details">
-                    <a class="container ">
+                    </figure>
+                </section>
+                <section class="pokemon-details">
+                    <figure class="container">
                         <img src="assets/img/Treecko-details.png" alt="Treecko">
-                    </a>
-                </div>
-            </div>
-        </div>
-
+                    </figure>
+                </section>
+            </article>
+        </section>
         <p></p>
-        <div class="not-found"></div>
     </main>
     <aside>
-        <img src="assets/img/image.png" width="200" class="rounding" alt="Your Photo">
-        <article>
-            <section>
-
-                <h6 class="text1">Mega Sceptile by みずのごけ</h6>
+        <figure>
+            <img src="assets/img/image.png" width="200" class="rounding" alt="Your Photo">
+            <figcaption>
+                <h3 class="text1">Mega Sceptile by みずのごけ</h3>
                 <i class="text1">Mega Sceptile is Very Cool!</i>
-            </section>
-            <section>
-
-                <br><br>
-                <p class="text1">The Forest Pokémon Sceptile is one of the Hoenn starter Grass-type Pokémon from Gen
-                    3.
-                    By gaining Dragon-typing, it joins its compatriots Mega Sceptile and Mega Blaziken in being a
-                    dual-type
-                    Pokémon. This fan-favourite is clearly inspired by geckos.</p>
-            </section>
-        </article>
+            </figcaption>
+        </figure>
+        <section>
+            <p class="text1">The Forest Pokémon Sceptile is one of the Hoenn starter Grass-type Pokémon from Gen 3.
+                By gaining Dragon-typing, it joins its compatriots Mega Sceptile and Mega Blaziken in being a
+                dual-type
+                Pokémon. This fan-favorite is clearly inspired by geckos.</p>
+        </section>
     </aside>
     <footer>
         <p class="text1">&copy;2023 Mohammad Hanif Furqan Aufa Putra</p>
