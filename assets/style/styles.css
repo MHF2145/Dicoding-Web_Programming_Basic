@@ -27,8 +27,9 @@ main {
 }
 
 .pokemon-details {
-    margin-left: 20px;
+    margin-left: 30px;
     text-align: left;
+    padding: 5mm;
 }
 
 .pokemon-image {
@@ -51,10 +52,20 @@ footer {
     text-align: center;
 }
 
-aside {
+.aside1 {
     background-color: #0F0F0F;
     padding: 10px;
     text-align: center;
+}
+.aside2 {
+    background-color:#C5FFF8;
+    padding: 10px;
+    text-align: center;
+}
+
+.text2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#232D3F;
 }
 
 .pokemon-container {
@@ -79,6 +90,43 @@ aside {
 main {
     background-color: #C5FFF8;
 }
-.navbar{
-    padding-bottom: 10;
-}
+
+nav.text3 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav.text3 li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav.text3 a {
+    text-decoration: none;
+  }
+  
+  nav.text3 a span {
+    display: inline-block;
+    padding: 0.1em 0.25em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    position: relative;
+    bottom: 0.4em;
+    text-align: center;
+    line-height: 2.5em;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+    transition: all 1s;
+  }
+  
+  nav.text3 a span:hover {
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+
+

@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Gallery</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="assets/style/styles.css">
 </head>
 
 <body>
     <header>
-        <h1 class="text1">Pokemon Gallery</h1>
-        <nav class="pokemon-navigation">
-            <label for="pokemonDropdown">Choose a Pokémon:</label>
-            <select id="pokemonDropdown"></select>
+        <h1 class="text1">Pokedex</h1>
+        <nav class="text3">
+            <ul>
+                <li><a href="#National-dex"><span>National Dex</span></a></li>
+                <li><a href="#Pokemon-galery"><span>Pokemon Galery</span></a></li>
+                <li><a href="#Pokemon-history"><span>Pokemon History</span></a></li>
+            </ul>
         </nav>
     </header>
 
@@ -21,6 +24,7 @@
         <section class="container">
             <article class="pokemon-container">
                 <section class="gallery">
+                    <h1 class="text1" id="#National-dex"> National Dex</h1>
                     <h2 class="pokemon-name text1">Treecko</h2>
                     <figure class="container">
                         <img class="pokemon-image" src="assets/img/Treecko.png" alt="Treecko">
@@ -33,11 +37,16 @@
                 </section>
             </article>
         </section>
-        <p></p>
+        <div class="pokemon-details"> <label for="pokemonDropdown">Choose a Pokémon:</label>
+            <select id="pokemonDropdown"></select>
+        </div>
     </main>
-    <aside>
+    <aside class="aside1">
         <figure>
-            <img src="assets/img/image.png" width="200" class="rounding" alt="Your Photo">
+            <h1 class="text1" id="Pokemon-galery">Pokemon Galery</h1>
+            <img src="assets/img/image.png" width="200" class="rounding" alt="Sceptile_1">
+            <img src="assets/img/image2.png" width="200" class="rounding" alt="Sceptile_1">
+            <img src="assets/img/image3.png" width="200" class="rounding" alt="Sceptile_1">
             <figcaption>
                 <h3 class="text1">Mega Sceptile by みずのごけ</h3>
                 <i class="text1">Mega Sceptile is Very Cool!</i>
@@ -50,6 +59,24 @@
                 Pokémon. This fan-favorite is clearly inspired by geckos.</p>
         </section>
     </aside>
+
+    <aside class="aside2">
+        <figure>
+            <h1 class="text2" id="Pokemon-history">Pokemon History</h1>
+            <img src="assets/img/image1.png" width="200" class="rounding" alt="Your Photo">
+            <figcaption>
+                <h3 class="text2">Mega Sceptile by みずのごけ</h3>
+                <i class="text2">History of Ash's Sceptile</i>
+            </figcaption>
+        </figure>
+        <section>
+            <p class="text2">Sceptile was a Pokémon Ash caught in the Hoenn Region and was one of his main Pokémon
+                during his Hoenn and Kanto Battle Frontier journey before being sent to Professor Oak's lab. He then
+                came back during a match in the Lily of the Valley Conference to fight and defeated a Darkrai before
+                being defeated by a Latios.</p>
+        </section>
+    </aside>
+
     <footer>
         <p class="text1">&copy;2023 Mohammad Hanif Furqan Aufa Putra</p>
     </footer>
